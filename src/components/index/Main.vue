@@ -3,8 +3,8 @@
 </script>
 
 <template>
-  <div class="IndexPageMain wrapper">
-    <div class="IndexPageMain__content">
+  <div class="index-page-main wrapper">
+    <div class="index-page-main__content">
       <h1>Test assignment for front-end developer</h1>
       <p>
         What defines a good front-end developer is one that has skilled knowledge of HTML,
@@ -21,7 +21,7 @@
 </template>
 
 <style lang='scss' scoped>
-.IndexPageMain {
+.index-page-main {
   background: url("/img/indexBg.png") center;
   background-size: cover;
   min-height: 650px;
@@ -29,6 +29,7 @@
   justify-content: center;
   align-items: center;
   padding: 15px;
+  box-sizing: border-box;
 
   &__content {
     max-width: 380px;
