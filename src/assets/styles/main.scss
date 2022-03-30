@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;1,400&display=swap');
+
+$primary-color: #F4E041;
+$secondary-color: #00BDD3;
+$bg-color: #F8F8F8;
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  background: $bg-color;
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 15px;
+}
+
+.btn {
+  background: $primary-color;
+  padding: 4px 23px;
+  border-radius: 80px;
+  border: none;
+  outline: none;
+  color: #000;
+  text-decoration: none;
+
+  &:hover {
+    background: #FFE302;
+    color: #000;
+  }
+}
+
+.btn-disabled {
+  background: #B4B4B4;
+  color: #FFFFFFDE;
+
+  &:hover {
+    cursor: default;
+    background: #B4B4B4;
+    color: #FFFFFFDE;
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+  .tooltip-text {
+    visibility: hidden;
+    background: #000000DE;
+    color: #fff;
+    text-align: center;
+    padding: 3px 15px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: all .2s;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+  }
+
+  &:hover {
+    cursor: pointer;
+    .tooltip-text {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .wrapper {
+    max-width: 1170px;
+  }
+}

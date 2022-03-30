@@ -1,0 +1,43 @@
+<script lang='ts' setup>
+
+</script>
+
+<template>
+  <div class="IndexPageMain wrapper">
+    <div class="IndexPageMain__content">
+      <h1>Test assignment for front-end developer</h1>
+      <p>
+        What defines a good front-end developer is one that has skilled knowledge of HTML,
+        CSS, JS with a vast understanding of User design thinking as they'll be building web
+        interfaces with accessibility in mind. They should also be excited to learn, as
+        the world of Front-End Development keeps evolving.
+      </p>
+      <a
+        href="#sign-up"
+        class="btn"
+      >Sign up</a>
+    </div>
+  </div>
+</template>
+
+<style lang='scss' scoped>
+.IndexPageMain {
+  background: url("/img/indexBg.png") center;
+  background-size: cover;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  &__content {
+    max-width: 380px;
+    color: white;
+    text-align: center;
+
+    p {
+      margin: 20px 0 30px 0;
+    }
+  }
+}
+</style>
