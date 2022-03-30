@@ -244,6 +244,7 @@ async function registerUser() {
 .registration {
   margin-top: 140px;
   text-align: center;
+  box-sizing: border-box;
 
   form {
     max-width: 380px;
