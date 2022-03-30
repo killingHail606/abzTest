@@ -22,7 +22,7 @@
 
 <style lang='scss' scoped>
 .index-page-main {
-  background: url("/img/indexBg.webp") center;
+  background: url("/img/index-bg.png") center;
   background-size: cover;
   min-height: 650px;
   display: flex;

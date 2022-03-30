@@ -23,7 +23,6 @@ export const mutations: UsersModule['mutations'] = {
 export const actions: UsersModule['actions'] = {
   async fetchUsers({ commit, state }): Promise<number> {
     const users = await API.getUsers(state.page);
-    console.log(users.data.users);
     commit('setUsers', users.data.users);
     return users.data.total_pages;
   },
