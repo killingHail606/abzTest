@@ -1,4 +1,4 @@
-# Technologies used in this project
+# Технологии используемые в этом проекте
 * npm
 * Vue 3 (composition API, script setup)
 * Typescript
@@ -8,7 +8,7 @@
 * vuex
 * vue-router
 
-## Installation
+## Установка
 ```
 npm install
 npm run dev
