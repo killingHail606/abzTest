@@ -64,7 +64,7 @@ watch(input, (value) => {
     }
 
     input {
-      padding: 18px 15px;
+      padding: 17px 15px;
       max-width: 380px;
       width: 100%;
       display: block;
@@ -72,6 +72,7 @@ watch(input, (value) => {
       box-sizing: border-box;
       border-radius: 4px;
       background: #F8F8F8;
+      font-size: 16px;
 
       &:focus {
         outline: none;
