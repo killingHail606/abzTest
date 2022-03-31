@@ -71,6 +71,7 @@ onMounted(async () => {
 
 <style lang='scss' scoped>
 .users {
+  overflow-x: hidden;
   margin-top: 140px;
   text-align: center;
   max-width: 1170px;
