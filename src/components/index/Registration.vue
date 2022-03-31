@@ -171,7 +171,7 @@ async function registerUser() {
       />
 
       <p class="header-radio-buttons">
-        Select your position +380639998877
+        Select your position
       </p>
       <InputRadio
         v-for="position in store.getters.positions"
@@ -256,12 +256,16 @@ async function registerUser() {
       margin: 50px 0;
     }
 
+    .input-text:nth-child(3) {
+      margin: 50px 0 43px 0;
+    }
+
     .header-radio-buttons {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
     }
 
     .radio-button {
-      margin-bottom: 13px;
+      margin-bottom: 7px;
     }
 
     .server-errors {

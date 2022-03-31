@@ -24,7 +24,7 @@
 .index-page-main {
   background: url("/img/index-bg.png") center;
   background-size: cover;
-  min-height: 650px;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,13 +32,19 @@
   box-sizing: border-box;
 
   &__content {
-    max-width: 380px;
+    max-width: 390px;
     color: white;
     text-align: center;
 
     p {
-      margin: 20px 0 30px 0;
+      margin: 15px 0 30px 0;
     }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .index-page-main {
+    min-height: 650px;
   }
 }
 </style>

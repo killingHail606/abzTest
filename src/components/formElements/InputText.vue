@@ -64,7 +64,7 @@ watch(input, (value) => {
     }
 
     input {
-      padding: 15px;
+      padding: 18px 15px;
       max-width: 380px;
       width: 100%;
       display: block;

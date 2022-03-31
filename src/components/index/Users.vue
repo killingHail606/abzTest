@@ -101,11 +101,12 @@ onMounted(async () => {
       }
 
       &__name {
-        margin-bottom: 20px;
+        margin-bottom: 13px;
       }
 
       &__job, &__email {
-        margin-bottom: 10px;
+        margin: 0;
+        height: 26px;
       }
 
       &__email .short_email, &__name .short_name {
@@ -117,7 +118,7 @@ onMounted(async () => {
       }
 
       &__phone {
-        margin-bottom: 0;
+        margin: 0;
       }
     }
   }
